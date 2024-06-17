@@ -126,6 +126,17 @@ publications = [
     ),
 
     Paper(
+        "NeRForensics: Detecting NeRF-Synthesized Images by Spectral Analysis",
+        "",
+        author_list("Wang, Dongqing; Pajouheshgar, Ehsan; Xu, Yitao; Zhang, Tong; Süsstrunk, Sabine"),
+        [ Link("Abstract", None, "In this work, we propose the detection of images synthesized by Neural Radiance Fields (NeRF) variants through NeRForensics, a framework based on spectral analysis to classify real and NeRF-rendered images. Our simple classifier achieves a 94% mean accuracy across NeRF variants including 100% accuracy for NeRFace, significantly outperforming the SoTA universal forgery detector. Our findings, validated by the proposed NeRFakes dataset comprising over 6k images, highlight the potential of spectral analysis in impeding the misuse of photorealistic synthesis in NeRF-based models.", None),
+            Link("Paper", "", None, None),
+            Link("Poster", "posters/poster_20.pdf", None, None),
+        ]
+    ),
+
+
+    Paper(
         "An Ethical Framework for Trustworthy Neural Rendering applied in Cultural Heritage and Creative Industries",
         "papers/paper_43.pdf",
         author_list("Stacchio, Lorenzo; Balloni, Emanuele; Gorgoglione, Lucrezia; Pierdicca, Roberto; Mancini, Adriano; Frontoni, Emanuele; Giovanola, Benedetta; Tiribelli, Simona; Paolanti, Marina; Zingaretti, Primo"),
