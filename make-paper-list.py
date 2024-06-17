@@ -76,6 +76,16 @@ publications = [
     ),
 
     Paper(
+        "4D-fy: Text-to-4D Generation Using Hybrid Score Distillation Sampling",
+        "https://sherwinbahmani.github.io/4dfy/",
+        author_list("Bahmani, Sherwin; Skorokhodov, Ivan; Rong, Victor; Wetzstein, Gordon; Guibas, Leonidas; Wonka, Peter; Tulyakov, Sergey; Park, Jeong Joon; Tagliasacchi, Andrea; Lindell, David B"),
+        [ Link("Abstract", None, "Recent breakthroughs in text-to-4D generation rely on pre-trained text-to-image and text-to-video models to generate dynamic 3D scenes. However, current text-to-4D methods face a three-way tradeoff between the quality of scene appearance, 3D structure, and motion. For example, text-to-image models and their 3D-aware variants are trained on internet-scale image datasets and can be used to produce scenes with realistic appearance and 3D structure -- but no motion. Text-to-video models are trained on relatively smaller video datasets and can produce scenes with motion, but poorer appearance and 3D structure. While these models have complementary strengths, they also have opposing weaknesses, making it difficult to combine them in a way that alleviates this three-way tradeoff. Here, we introduce hybrid score distillation sampling, an alternating optimization procedure that blends supervision signals from multiple pre-trained diffusion models and incorporates benefits of each for high-fidelity text-to-4D generation. Using hybrid SDS, we demonstrate synthesis of 4D scenes with compelling appearance, 3D structure, and motion.", None),
+            Link("Paper", "https://arxiv.org/abs/2311.17984", None, None),
+            Link("Poster", "posters/poster_36.pdf", None, None)
+        ]
+    ),
+
+    Paper(
         "PhyScene: Physically Interactable 3D Scene Synthesis for Embodied AI",
         "https://arxiv.org/abs/2404.09465",
         author_list("Yang, Yandan; Jia, Baoxiong; Zhi, Peiyuan; Huang, Siyuan"),
