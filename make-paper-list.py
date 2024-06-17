@@ -116,6 +116,16 @@ publications = [
     ),
 
     Paper(
+        "Paint-it: Text-to-Texture Synthesis via Deep Convolutional Texture Map Optimization and Physically-Based Rendering",
+        "https://arxiv.org/abs/2312.11360",
+        author_list("Youwang, Kim; Oh, Tae-Hyun; Pons-Moll, Gerard"),
+        [ Link("Abstract", None, "We present Paint-it, a text-driven high-fidelity texture map synthesis method for 3D meshes via neural re-parameterized texture optimization. Paint-it synthesizes texture maps from a text description by synthesis-through-optimization, exploiting the Score-Distillation Sampling (SDS). We observe that directly applying SDS yields undesirable texture quality due to its noisy gradients. We reveal the importance of texture parameterization when using SDS. Specifically, we propose Deep Convolutional Physically-Based Rendering (DC-PBR) parameterization, which re-parameterizes the physically-based rendering (PBR) texture maps with randomly initialized convolution-based neural kernels, instead of a standard pixel-based parameterization. We show that DC-PBR inherently schedules the optimization curriculum according to texture frequency and naturally filters out the noisy signals from SDS. In experiments, Paint-it obtains remarkable quality PBR texture maps within 15 min., given only a text description. We demonstrate the generalizability and practicality of Paint-it by synthesizing high-quality texture maps for large-scale mesh datasets and showing test-time applications such as relighting and material control using a popular graphics engine.", None),
+            Link("Paper", "https://arxiv.org/abs/2312.11360", None, None),
+            Link("Poster", "https://kim-youwang.github.io/media/paint-it/cvpr24_poster_youwang_final.pdf", None, None),
+        ]
+    ),
+
+    Paper(
         "EucliDreamer: Fast and High-Quality Texturing for 3D Models with Depth-Conditioned Stable Diffusion",
         "https://arxiv.org/abs/2404.10279",
         author_list("Le, Cindy; Hetang, Congrui; Lin, Chendi; Cao, Ang ; He, Yihui"),
