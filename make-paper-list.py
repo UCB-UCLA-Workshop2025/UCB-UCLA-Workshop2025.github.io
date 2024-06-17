@@ -86,6 +86,17 @@ publications = [
     ),
 
     Paper(
+        "EucliDreamer: Fast and High-Quality Texturing for 3D Models with Depth-Conditioned Stable Diffusion",
+        "https://arxiv.org/abs/2404.10279",
+        author_list("Le, Cindy; Hetang, Congrui; Lin, Chendi; Cao, Ang ; He, Yihui"),
+        [ Link("Abstract", None, "We present EucliDreamer, a simple and effective method to generate textures for 3D models given text prompts and meshes. The texture is parametrized as an implicit function on the 3D surface, which is optimized with the Score Distillation Sampling (SDS) process and differentiable rendering. To generate high-quality textures, we leverage a depth-conditioned Stable Diffusion model guided by the depth image rendered from the mesh. We test our approach on 3D models in Objaverse and conducted a user study, which shows its superior quality compared to existing texturing methods like Text2Tex. In addition, our method converges 2 times faster than DreamFusion. Through text prompting, textures of diverse art styles can be produced. We hope Euclidreamer proides a viable solution to automate a labor-intensive stage in 3D content creation.", None),
+            Link("Paper", "https://arxiv.org/abs/2404.10279", None, None),
+            Link("Poster", "posters/poster_28.pdf", None, None)
+        ]
+    ),
+
+
+    Paper(
         "StyLitGAN: Image-based Relighting via Latent Control",
         "https://openaccess.thecvf.com/content/CVPR2024/papers/Bhattad_StyLitGAN_Image-Based_Relighting_via_Latent_Control_CVPR_2024_paper.pdf",
         author_list("Bhattad, Anand; Soole, James; Forsyth, David"),
