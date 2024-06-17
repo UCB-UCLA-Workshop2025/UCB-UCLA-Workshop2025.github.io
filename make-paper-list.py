@@ -116,6 +116,16 @@ publications = [
     ),
 
     Paper(
+        "Isometric View Images Generation from Three Orthographic View Contour Drawings using Enhanced IsoGAN",
+        "",
+        author_list("Nguyen, Thao Phuong*; Sakaino, Hidetomo"),
+        [ Link("Abstract", None, "Reconstructing the 2D or 3D shape of an object from several 2D drawings is a crucial problem in computer-aided design (CAD). Despite the advancement of deep neural networks, automatic isometric image generation from three orthographic views line drawings using deep learning remains unresolved. Existing image-to-image translation techniques often generate images from just one input image. In this paper, we propose a novel method for the above task using a GAN-based model, namely IsoGAN. This method takes three images of object's front, side, and top view as input, then analyzes the spatial and geometrical relations between each view and finally generates the corresponding isometric view image of the object. Extensive experiments on SPARE3D dataset show promising results of IsoGAN on isometric view generation task, demonstrating the effectiveness of the proposed IsoGAN.", None),
+            Link("Paper", "", None, None),
+            Link("Poster", "posters/poster_31.pdf", None, None)
+        ]
+    ),
+
+    Paper(
         "StyLitGAN: Image-based Relighting via Latent Control",
         "https://openaccess.thecvf.com/content/CVPR2024/papers/Bhattad_StyLitGAN_Image-Based_Relighting_via_Latent_Control_CVPR_2024_paper.pdf",
         author_list("Bhattad, Anand; Soole, James; Forsyth, David"),
