@@ -36,6 +36,16 @@ def author_list(authors):
 
 publications = [
     Paper(
+        "InNeRF360: Text-Guided 3D-Consistent Object Inpainting on 360-degree Neural Radiance Fields",
+        "https://arxiv.org/abs/2305.15094",
+        author_list("Wang, Dongqing; Zhang, Tong; Abboud, Alaa; Süsstrunk, Sabine"),
+        [ Link("Abstract", None, "We propose InNeRF360, an automatic system that accurately removes text-specified objects from 360-degree Neural Radiance Fields (NeRF). The challenge is to effectively remove objects while inpainting perceptually consistent content for the missing regions, which is particularly demanding for existing NeRF models due to their implicit volumetric representation. Moreover, unbounded scenes are more prone to floater artifacts in the inpainted region than frontal-facing scenes, as the change of object appearance and background across views is more sensitive to inaccurate segmentations and inconsistent inpainting. With a trained NeRF and a text description, our method efficiently removes specified objects and inpaints visually consistent content without artifacts. We apply depth-space warping to enforce consistency across multiview text-encoded segmentations, and then refine the inpainted NeRF model using perceptual priors and 3D diffusion-based geometric priors to ensure visual plausibility. Through extensive experiments in segmentation and inpainting on 360-degree and frontal-facing NeRFs, we show that our approach is effective and enhances NeRF's editability.", None),
+            Link("Paper", "https://arxiv.org/abs/2305.15094", None, None),
+            Link("Poster", "posters/poster_19.pdf", None, None)
+        ]
+    ),
+
+    Paper(
         "Towards Practical Single-shot Motion Synthesis",
         "https://arxiv.org/pdf/2406.01136",
         author_list("Roditakis, Konstantinos; Thermos, Spyridon; Zioulis Nikolaos"),
