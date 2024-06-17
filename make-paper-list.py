@@ -46,6 +46,16 @@ publications = [
     ),
 
     Paper(
+        "Intrinsic LoRA: A Generalist Approach for Discovering Knowledge in Generative Models",
+        "papers/paper_6.pdf",
+        author_list("Du, Xiaodan; Kolkin, Nicholas I; Shakhnarovich, Greg; Bhattad, Anand"),
+        [ Link("Abstract", None, "Generative models have been shown to be capable of creating images that closely mimic real scenes, suggesting they inherently encode scene representations. We introduce INTRINSIC LORA (I-LORA), a general approach that uses Low-Rank Adaptation (LoRA) to discover scene intrinsics such as normals, depth, albedo, and shading from a wide array of generative models. I-LORA is lightweight, adding minimally to the model’s parameters and requiring very small datasets for this knowledge discovery. Our approach, applicable to Diffusion models, GANs, and Autoregressive models alike, generates intrinsics using the same output head as the original images.", None),
+            Link("Paper", "papers/paper_6.pdf", None, None),
+            Link("Poster", "posters/poster_6.pdf", None, None)
+        ]
+    ),
+
+    Paper(
         "C3DAG: Controlled 3D Animal Generation using 3D pose guidance",
         "https://arxiv.org/abs/2406.07742",
         author_list("Mishra, Sandeep; Saha, Oindrila ; Bovik, Alan"),
