@@ -145,6 +145,14 @@ publications = [
         ]
     ),
 
+    Paper(
+        "As-Plausible-As-Possible: Plausibility-Aware Mesh Deformation Using 2D Diffusion Priors",
+        "https://as-plausible-as-possible.github.io/",
+        author_list("Yoo, Seungwoo; Kim, Kunho; Kim, Vladimir; Sung, Minhyuk"),
+        [ Link("Abstract", None, "We present As-Plausible-as-Possible (APAP) mesh deformation technique that leverages 2D diffusion priors to preserve the plausibility of a mesh under user-controlled deformation. Our framework uses per-face Jacobians to represent mesh deformations, where mesh vertex coordinates are computed via a differentiable Poisson Solve. The deformed mesh is rendered, and the resulting 2D image is used in the Score Distillation Sampling (SDS) process, which enables extracting meaningful plausibility priors from a pretrained 2D diffusion model. To better preserve the identity of the edited mesh, we fine-tune our 2D diffusion model with LoRA. Gradients extracted by SDS and a user-prescribed handle displacement are then backpropagated to the per-face Jacobians, and we use iterative gradient descent to compute the final deformation that balances between the user edit and the output plausibility. We evaluate our method with 2D and 3D meshes and demonstrate qualitative and quantitative improvements when using plausibility priors over geometry-preservation or distortion-minimization priors used by previous techniques", None),
+            Link("Paper", "https://arxiv.org/abs/2311.16739", None, None),
+        ]
+    ),
 
     Paper(
         "An Ethical Framework for Trustworthy Neural Rendering applied in Cultural Heritage and Creative Industries",
