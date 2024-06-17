@@ -56,6 +56,15 @@ publications = [
     ),
 
     Paper(
+        "DynVideo-E: Harnessing Dynamic NeRF for Large-Scale Motion- and View-Change Human-Centric Video Editing",
+        "https://showlab.github.io/DynVideo-E/",
+        author_list("Liu, Jia-Wei; Cao, Yan-Pei; Wu, Jay Zhangjie; Mao, Weijia; Gu, Yuchao; Zhao, Rui; Keppo, Jussi; Shan, Ying; Shou, Mike Zheng"),
+        [ Link("Abstract", None, "Despite recent progress in diffusion-based video editing, existing methods are limited to short-length videos due to the contradiction between long-range consistency and frame-wise editing. Prior attempts to address this challenge by introducing video-2D representations encounter significant difficulties with large-scale motion- and view-change videos, especially in human-centric scenarios. To overcome this, we propose to introduce the dynamic Neural Radiance Fields (NeRF) as the innovative video representation, where the editing can be performed in the 3D spaces and propagated to the entire video via the deformation field. To provide consistent and controllable editing, we propose the image-based video-NeRF editing pipeline with a set of innovative designs, including multi-view multi-pose Score Distillation Sampling (SDS) from both the 2D personalized diffusion prior and 3D diffusion prior, reconstruction losses, text-guided local parts super-resolution, and style transfer. Extensive experiments demonstrate that our method, dubbed as DynVideo-E, significantly outperforms SOTA approaches on two challenging datasets by a large margin of 50% ~ 95% for human preference.", None),
+            Link("Paper", "https://arxiv.org/abs/2310.10624", None, None),
+        ]
+    ),
+
+    Paper(
         "Intrinsic LoRA: A Generalist Approach for Discovering Knowledge in Generative Models",
         "papers/paper_6.pdf",
         author_list("Du, Xiaodan; Kolkin, Nicholas I; Shakhnarovich, Greg; Bhattad, Anand"),
