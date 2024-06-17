@@ -1,0 +1,129 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <title>AI3DG: Workshop on AI for 3D Generation</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Despoina Paschalidou">
+        <meta name="description" content="Workshop page for ai3dcc">
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css?cache=77333914184988801948">
+        <link rel="icon" type="image/png" href="figures/favicon.png"/>
+    </head>
+    <body>
+        <div id="navbar-top">
+        <nav class="navbar navbar-light px-3">
+            <a class="navbar-brand" href="https://cvpr.thecvf.com"/>AI3DG @ CVPR2024</a>
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#submission">Submission</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#schedule">Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="accepted_papers.html">
+                Accepted Papers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#speakers">Speakers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="program_committee.html">
+                Program Committee</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#organizers">Organizers</a>
+              </li>
+            </ul>
+        </nav>
+        </div>
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+
+        <div class="jumbotron">
+            <div class="papers-title">
+                <h2>Workshop Publications</h2>
+            </div>
+            <!-- start paper list --><div class="row paper"><div class="content"><div class="paper-title"><a href="papers/paper_21.pdf">Consistency^2: Consistent and Fast 3D Painting with Latent Consistency Models</a></div><div class="authors">Wang,  Tianfu; Obukhov,  Anton; Schindler,  Konrad</div><div class="links"><a href="#" data-type="Abstract" data-index="0">Abstract</a> <a href="papers/poster_21.pdf" data-type="Paper">Paper</a> <a href="posters/poster_21.pdf" data-type="Poster">Poster</a><div class="link-content" data-index="0">Generative 3D Painting is among the top productivity boosters in high-resolution 3D asset management and recy- cling. Ever since text-to-image models became accessible for inference on consumer hardware, the performance of 3D Painting methods has consistently improved and is cur- rently close to plateauing. At the core of most such models lies denoising diffusion in the latent space, an inherently time-consuming iterative process. Multiple techniques have been developed recently to accelerate generation and reduce sampling iterations by orders of magnitude. Designed for 2D generative imaging, these techniques do not come with recipes for lifting them into 3D. In this paper, we ad- dress this shortcoming by proposing a Latent Consistency Model (LCM) adaptation for the task at hand. We analyze the strengths and weaknesses of the proposed model and evaluate it quantitatively and qualitatively. Based on the Objaverse dataset samples study, our 3D painting method attains strong preference in all evaluations.</div></div></div></div><div class="row paper"><div class="content"><div class="paper-title"><a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Bhattad_StyLitGAN_Image-Based_Relighting_via_Latent_Control_CVPR_2024_paper.pdf">StyLitGAN: Image-based Relighting via Latent Control</a></div><div class="authors">Bhattad,  Anand; Soole,  James; Forsyth,  David</div><div class="links"><a href="#" data-type="Abstract" data-index="0">Abstract</a> <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Bhattad_StyLitGAN_Image-Based_Relighting_via_Latent_Control_CVPR_2024_paper.pdf" data-type="Paper">Paper</a><div class="link-content" data-index="0">We describe a novel method, StyLitGAN, for relighting and resurfacing images in the absence of labeled data. StyLitGAN generates images with realistic lighting effects, including cast shadows, soft shadows, inter-reflections, and glossy effects, without the need for paired or CGI data. StyLitGAN uses an intrinsic image method to decompose an image, followed by a search of the latent space of a pretrained StyleGAN to identify a set of directions. By prompting the model to fix one component (e.g., albedo) and vary another (e.g., shading), we generate relighted images by adding the identified directions to the latent style codes. Quantitative metrics of change in albedo and lighting diversity allow us to choose effective directions using a forward selection process. Qualitative evaluation confirms the effectiveness of our method.</div></div></div></div><!-- end paper list -->
+
+        <div class="d-flex" id="footer">
+            <div class="col-6 d-none d-md-block col-button" style="text-align: left;">
+            </div>
+            <div class="col-6 d-none d-md-block col-button" style="text-align: right;">
+                <a class="btn btn-primary me-md-2" role="button" href="#home" >Top</a>
+            </div>
+        </div>
+        <!---
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end d-none d-md-block col-button">
+            <a class="btn btn-primary me-md-2" role="button" href="#home" >Top</a>
+        </div>-->
+
+        <script>
+            var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+                target: '#navbar-top'
+            });
+        </script>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4LXC9BQBBX"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-4LXC9BQBBX');
+        </script>
+
+        <!-- Javascript for showing and hiding the abstract and bibtex -->
+        <script type="text/javascript">
+            document.querySelectorAll(".links").forEach(function (p) {
+                p.addEventListener("click", function (ev) {
+                    // Make sure that the click is coming from a link
+                    if (ev.target.nodeName != "A") {
+                        return;
+                    }
+                    console.log(ev);
+
+                    // Find the index of the div to toggle or return
+                    var i = ev.target.dataset["index"];
+                    if (i == undefined) {
+                        return;
+                    }
+
+                    // Make sure to remove something else that was displayed
+                    // and toggle the current one
+                    Array.prototype.forEach.call(
+                        ev.target.parentNode.children,
+                        function (sibling) {
+                            // We don't care about links etc
+                            if (sibling.nodeName != "DIV") {
+                                return;
+                            }
+
+                            // Hide others
+                            if (sibling.dataset["index"] != i) {
+                                sibling.style.display = "none";
+                            }
+
+                            // toggle the correct one
+                            else {
+                                if (sibling.style.display != "block") {
+                                    sibling.style.display = "block";
+                                } else {
+                                    sibling.style.display = "none";
+                                }
+                            }
+                        }
+                    );
+                    ev.preventDefault();
+                });
+            });
+        </script>
+    </body>
+</html>
