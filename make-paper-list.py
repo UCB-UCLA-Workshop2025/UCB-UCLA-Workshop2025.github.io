@@ -46,6 +46,16 @@ publications = [
     ),
 
     Paper(
+        "C3DAG: Controlled 3D Animal Generation using 3D pose guidance",
+        "https://arxiv.org/abs/2406.07742",
+        author_list("Mishra, Sandeep; Saha, Oindrila ; Bovik, Alan"),
+        [ Link("Abstract", None, "Recent advancements in text-to-3D generation have demonstrated the ability to generate high quality 3D assets. However while generating animals these methods underperform, often portraying inaccurate anatomy and geometry. Towards ameliorating this defect, we present C3DAG, a novel pose-Controlled text-to-3D Animal Generation framework which generates a high quality 3D animal consistent with a given pose. We also introduce an automatic 3D shape creator tool, that allows dynamic pose generation and modification via a web-based tool, and that generates a 3D balloon animal using simple geometries. A NeRF is then initialized using this 3D shape using depth-controlled SDS. In the next stage, the pre-trained NeRF is fine-tuned using quadruped-pose-controlled SDS. The pipeline that we have developed not only produces geometrically and anatomically consistent results, but also renders highly controlled 3D animals, unlike prior methods which do not allow fine-grained pose control.", None),
+            Link("Paper", "https://arxiv.org/abs/2406.07742", None, None),
+            Link("Poster", "posters/poster_27.pdf", None, None)
+        ]
+    ),
+
+    Paper(
         "FSGS: Real-Time Few-shot View Synthesis using Gaussian Splatting",
         "https://arxiv.org/abs/2312.00451",
         author_list("Zhu, Zehao; Fan, Zhiwen; Jiang, Yifan; Cong, Wenyan; Wang, Zhangyang"),
