@@ -75,9 +75,45 @@ publications = [
     ),
 
     Paper(
+        "CAD: Photorealistic 3D Generation via Adversarial Distillation",
+        "http://raywzy.com/CAD/",
+        author_list("Wan, Ziyu; Paschalidou, Despoina; Huang, Ian Y; Liu, Hongyu; Shen, Bokui; Xiang, Xiaoyu; Liao, Jing; Guibas, Leonidas"),
+        [ Link("Abstract", None, "The increased demand for 3D data in AR/VR, robotics and gaming applications, gave rise to powerful generative pipelines capable of synthesizing high-quality 3D objects. Most of these models rely on the Score Distillation Sampling (SDS) algorithm to optimize a 3D representation such that the rendered image maintains a high likelihood as evaluated by a pre-trained diffusion model. However, finding a correct mode in the high-dimensional distribution produced by the diffusion model is challenging and often leads to issues such as over-saturation, over-smoothing, and Janus-like artifacts. In this paper, we propose a novel learning paradigm for 3D synthesis that utilizes pre-trained diffusion models. Instead of focusing on mode-seeking, our method directly models the distribution discrepancy between multi-view renderings and diffusion priors in an adversarial manner, which unlocks the generation of high-fidelity and photorealistic 3D content, conditioned on a single image and prompt. Moreover, by harnessing the latent space of GANs and expressive diffusion model priors, our method facilitates a wide variety of 3D applications including single-view reconstruction, high diversity generation and continuous 3D interpolation in the open domain. The experiments demonstrate the superiority of our pipeline compared to previous works in terms of generation quality and diversity.", None),
+            Link("Paper", "https://arxiv.org/abs/2312.06663", None, None),
+        ]
+    ),
+
+    Paper(
+        "3D Paintbrush: Local Stylization of 3D Shapes with Cascaded Score Distillation",
+        "https://threedle.github.io/3d-paintbrush/",
+        author_list("Decatur, Dale; Lang, Itai; Aberman, Kfir; Hanocka, Rana"),
+        [ Link("Abstract", None, "In this work we develop 3D Paintbrush, a technique for automatically texturing local semantic regions on meshes via text descriptions. Our method is designed to operate directly on meshes, producing texture maps which seamlessly integrate into standard graphics pipelines. We opt to simultaneously produce a localization map (to specify the edit region) and a texture map which conforms to it. This synergistic approach improves the quality of both the localization and the stylization. To enhance the details and resolution of the textured area, we leverage multiple stages of a cascaded diffusion model to supervise our local editing technique with generative priors learned from images at different resolutions. Our technique, referred to as Cascaded Score Distillation (CSD), simultaneously distills scores at multiple resolutions in a cascaded fashion, enabling control over both the granularity and global understanding of the supervision. We demonstrate the effectiveness of 3D Paintbrush to locally texture a variety of shapes within different semantic regions.", None),
+            Link("Paper", "https://arxiv.org/abs/2311.09571", None, None),
+        ]
+    ),
+
+    Paper(
+        "DreamScene360: Unconstrained Text-to-3D Scene Generation with Panoramic Gaussian Splatting",
+        "https://arxiv.org/abs/2404.06903",
+        author_list("Zhou, Shijie; Fan, Zhiwen; Xu, Dejia; Chang, Haoran; Chari, Pradyumna; Bharadwaj, Tejas K; You, Suya; Wang, Zhangyang; Kadambi, Achuta"),
+        [ Link("Abstract", None, "The increasing demand for virtual reality applications has highlighted the significance of crafting immersive 3D assets. We present a text-to-3D 360∘ scene generation pipeline that facilitates the creation of comprehensive 360∘ scenes for in-the-wild environments in a matter of minutes. Our approach utilizes the generative power of a 2D diffusion model and prompt self-refinement to create a high-quality and globally coherent panoramic image. This image acts as a preliminary 'flat' (2D) scene representation. Subsequently, it is lifted into 3D Gaussians, employing splatting techniques to enable real-time exploration. To produce consistent 3D geometry, our pipeline constructs a spatially coherent structure by aligning the 2D monocular depth into a globally optimized point cloud. This point cloud serves as the initial state for the centroids of 3D Gaussians. In order to address invisible issues inherent in single-view inputs, we impose semantic and geometric constraints on both synthesized and input camera views as regularizations. These guide the optimization of Gaussians, aiding in the reconstruction of unseen regions. In summary, our method offers a globally consistent 3D scene within a 360∘ perspective, providing an enhanced immersive experience over existing techniques.", None),
+            Link("Paper", "https://arxiv.org/abs/2404.06903", None, None),
+        ]
+    ),
+
+    Paper(
+        "ExtraNeRF: Visibility-Aware View Extrapolation of Neural Radiance Fields with Diffusion Models",
+        "https://arxiv.org/abs/2406.06133",
+        author_list("Shih, Meng-Li; Ma, Wei-Chiu; Boyice, Lorenzo; Holynski, Aleksander; Cole, Forrester; Kontkanen, Janne; Curless, Brian"),
+        [ Link("Abstract", None, "We propose ExtraNeRF, a novel method for extrapolating the range of views handled by a Neural Radiance Field (NeRF). Our main idea is to leverage NeRFs to model scene-specific, fine-grained details, while capitalizing on diffusion models to extrapolate beyond our observed data. A key ingredient is to track visibility to determine what portions of the scene have not been observed, and focus on reconstructing those regions consistently with diffusion models. Our primary contributions include a visibility-aware diffusion-based inpainting module that is fine-tuned on the input imagery, yielding an initial NeRF with moderate quality (often blurry) inpainted regions, followed by a second diffusion model trained on the input imagery to consistently enhance, notably sharpen, the inpainted imagery from the first pass. We demonstrate high-quality results, extrapolating beyond a small number of (typically six or fewer) input views, effectively outpainting the NeRF as well as inpainting newly disoccluded regions inside the original viewing volume. We compare with related work both quantitatively and qualitatively and show significant gains over prior art.", None),
+            Link("Paper", "https://arxiv.org/abs/2406.06133", None, None),
+        ]
+    ),
+
+    Paper(
         "3D Shape Augmentation with Content-Aware Shape Resizing",
         "https://arxiv.org/abs/2405.09050v1",
-        author_list("Chen, Mingxiang; Zhou, Boli; ZHANG, Jian"),
+        author_list("Chen, Mingxiang; Zhou, Boli; Zhang, Jian"),
         [ Link("Abstract", None, "Recent advancements in deep learning for 3D models have propelled breakthroughs in generation, detection, and scene understanding. However, the effectiveness of these algorithms hinges on large training datasets. We address the challenge by introducing Efficient 3D Seam Carving (E3SC), a novel 3D model augmentation method based on seam carving, which progressively deforms only part of the input model while ensuring the overall semantics are unchanged. Experiments show that our approach is capable of producing diverse and high-quality augmented 3D shapes across various types and styles of input models, achieving considerable improvements over previous methods. Quantitative evaluations demonstrate that our method effectively enhances the novelty and quality of shapes generated by other subsequent 3D generation algorithms.", None),
             Link("Paper", "https://arxiv.org/abs/2405.09050v1", None, None),
         ]
