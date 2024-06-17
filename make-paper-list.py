@@ -46,6 +46,16 @@ publications = [
     ),
 
     Paper(
+        "FSGS: Real-Time Few-shot View Synthesis using Gaussian Splatting",
+        "https://arxiv.org/abs/2312.00451",
+        author_list("Zhu, Zehao; Fan, Zhiwen; Jiang, Yifan; Cong, Wenyan; Wang, Zhangyang"),
+        [ Link("Abstract", None, "Novel view synthesis from limited observations remains an important and persistent task. However, high efficiency in existing NeRF-based few-shot view synthesis is often compromised to obtain an accurate 3D representation. To address this challenge, we propose a few-shot view synthesis framework based on 3D Gaussian Splatting that enables real-time and photo-realistic view synthesis with as few as three training views. The proposed method, dubbed FSGS, handles the extremely sparse initialized SfM points with a thoughtfully designed Gaussian Unpooling process. Our method iteratively distributes new Gaussians around the most representative locations, subsequently infilling local details in vacant areas. We also integrate a large-scale pre-trained monocular depth estimator within the Gaussians optimization process, leveraging online augmented views to guide the geometric optimization towards an optimal solution. Starting from sparse points observed from limited input viewpoints, our FSGS can accurately grow into unseen regions, comprehensively covering the scene and boosting the rendering quality of novel views. Overall, FSGS achieves state-of-the-art performance in both accuracy and rendering efficiency across diverse datasets, including LLFF, Mip-NeRF360, and Blender.", None),
+            Link("Paper", "https://arxiv.org/abs/2312.00451", None, None),
+            Link("Poster", "posters/poster_41.pdf", None, None)
+        ]
+    ),
+
+    Paper(
         "Consistency^2: Consistent and Fast 3D Painting with Latent Consistency Models",
         "papers/paper_21.pdf",
         author_list("Wang, Tianfu; Obukhov, Anton; Schindler, Konrad"),
