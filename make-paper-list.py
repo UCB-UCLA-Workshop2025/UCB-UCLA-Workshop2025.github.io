@@ -44,6 +44,7 @@ publications = [
             Link("Poster", "posters/poster_15.pdf", None, None)
         ]
     ),
+
     Paper(
         "Consistency^2: Consistent and Fast 3D Painting with Latent Consistency Models",
         "papers/paper_21.pdf",
@@ -51,6 +52,16 @@ publications = [
         [ Link("Abstract", None, "Generative 3D Painting is among the top productivity boosters in high-resolution 3D asset management and recy- cling. Ever since text-to-image models became accessible for inference on consumer hardware, the performance of 3D Painting methods has consistently improved and is cur- rently close to plateauing. At the core of most such models lies denoising diffusion in the latent space, an inherently time-consuming iterative process. Multiple techniques have been developed recently to accelerate generation and reduce sampling iterations by orders of magnitude. Designed for 2D generative imaging, these techniques do not come with recipes for lifting them into 3D. In this paper, we ad- dress this shortcoming by proposing a Latent Consistency Model (LCM) adaptation for the task at hand. We analyze the strengths and weaknesses of the proposed model and evaluate it quantitatively and qualitatively. Based on the Objaverse dataset samples study, our 3D painting method attains strong preference in all evaluations.", None),
             Link("Paper", "papers/paper_21.pdf", None, None),
             Link("Poster", "posters/poster_21.pdf", None, None)
+        ]
+    ),
+
+    Paper(
+        "ControlRoom3D: Room Generation using Semantic Proxy Rooms",
+        "https://arxiv.org/pdf/2312.05208",
+        author_list("Schult, Jonas; Tsai, Sam; Höllein, Lukas; Wu, Bichen; Wang, Jialiang; Ma, Chih-Yao; Li, Kunpeng Optional; Wang, Xiaofang; Wimbauer, Felix; He, Zijian; Zhang, Peizhao; Leibe, Bastian; Vajda, Peter; Hou, Ji"),
+        [ Link("Abstract", None, "Manually creating 3D environments for AR/VR applications is a complex process requiring expert knowledge in 3D modeling software. Pioneering works facilitate this process by generating room meshes conditioned on textual style descriptions. Yet, many of these automatically generated 3D meshes do not adhere to typical room layouts, compromising their plausibility, e.g., by placing several beds in one bedroom. To address these challenges, we present ControlRoom3D, a novel method to generate high-quality room meshes. Central to our approach is a user-defined 3D semantic proxy room that outlines a rough room layout based on semantic bounding boxes and a textual description of the overall room style. Our key insight is that when rendered to 2D, this 3D representation provides valuable geometric and semantic information to control powerful 2D models to generate 3D consistent textures and geometry that aligns well with the proxy room. Backed up by an extensive study including quantitative metrics and qualitative user evaluations, our method generates diverse and globally plausible 3D room meshes, thus empowering users to design 3D rooms effortlessly without specialized knowledge.", None),
+            Link("Paper", "https://arxiv.org/pdf/2312.05208", None, None),
+            Link("Poster", "posters/poster_7.pdf", None, None)
         ]
     ),
 
