@@ -36,6 +36,15 @@ def author_list(authors):
 
 publications = [
     Paper(
+        "Towards Practical Single-shot Motion Synthesis",
+        "https://arxiv.org/pdf/2406.01136",
+        author_list("Roditakis, Konstantinos; Thermos, Spyridon; Zioulis Nikolaos"),
+        [ Link("Abstract", None, "Despite the recent advances in the so-called 'cold start' generation from text prompts, their needs in data and computing resources, as well as the ambiguities around intellectual property and privacy concerns pose certain counterarguments for their utility. An interesting and relatively unexplored alternative has been the introduction of unconditional synthesis from a single sample, which has led to interesting generative applications. In this paper we focus on single-shot motion generation and more specifically on accelerating the training time of a Generative Adversarial Network (GAN). In particular, we tackle the challenge of GAN's equilibrium collapse when using mini-batch training by carefully annealing the weights of the loss functions that prevent mode collapse. Additionally, we perform statistical analysis in the generator and discriminator models to identify correlations between training stages and enable transfer learning. Our improved GAN achieves competitive quality and diversity on the Mixamo benchmark when compared to the original GAN architecture and a single-shot diffusion model, while being up to x6.8 faster in training time from the former and x1.75 from the latter. Finally, we demonstrate the ability of our improved GAN to mix and compose motion with a single forward pass.", None),
+            Link("Paper", "papers/paper_15.pdf", None, None),
+            Link("Poster", "posters/poster_15.pdf", None, None)
+        ]
+    ),
+    Paper(
         "Consistency^2: Consistent and Fast 3D Painting with Latent Consistency Models",
         "papers/paper_21.pdf",
         author_list("Wang, Tianfu; Obukhov, Anton; Schindler, Konrad"),
