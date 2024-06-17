@@ -126,10 +126,10 @@ publications = [
     ),
 
     Paper(
-        "NeRForensics: Detecting NeRF-Synthesized Images by Spectral Analysis",
+        "Volumetric Style Transfer using Neural Cellular Automata",
         "",
         author_list("Wang, Dongqing; Pajouheshgar, Ehsan; Xu, Yitao; Zhang, Tong; Süsstrunk, Sabine"),
-        [ Link("Abstract", None, "In this work, we propose the detection of images synthesized by Neural Radiance Fields (NeRF) variants through NeRForensics, a framework based on spectral analysis to classify real and NeRF-rendered images. Our simple classifier achieves a 94% mean accuracy across NeRF variants including 100% accuracy for NeRFace, significantly outperforming the SoTA universal forgery detector. Our findings, validated by the proposed NeRFakes dataset comprising over 6k images, highlight the potential of spectral analysis in impeding the misuse of photorealistic synthesis in NeRF-based models.", None),
+        [ Link("Abstract", None, "Artistic stylization of 3D volumetric smoke data is still a challenge in computer graphics due to the difficulty of ensuring spatiotemporal consistency given a reference style image, and that within reasonable time and computational resources. In this work, we introduce Volumetric Neural Cellular Automata (VNCA), a novel model for efficient volumetric style transfer that synthesizes, in real-time, multi-view consistent stylizing features on the target smoke with temporally coherent transitions between stylized simulation frames. VNCA synthesizes a 3D texture volume with color and density stylization and dynamically aligns this volume with the intricate motion patterns of the smoke simulation under the Eulerian framework. Our approach replaces the explicit fluid advection modeling and the inter-frame smoothing terms with the self-emerging motion of the underlying cellular automaton, thus reducing the training time by over an order of magnitude. Beyond smoke simulations, we demonstrate the versatility of our approach by showcasing its applicability to mesh stylization.", None),
             Link("Paper", "", None, None),
             Link("Poster", "posters/poster_20.pdf", None, None),
         ]
