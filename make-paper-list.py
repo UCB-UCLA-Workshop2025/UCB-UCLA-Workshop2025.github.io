@@ -106,6 +106,16 @@ publications = [
     ),
 
     Paper(
+        "An Ethical Framework for Trustworthy Neural Rendering applied in Cultural Heritage and Creative Industries",
+        "papers/paper_43.pdf",
+        author_list("Stacchio, Lorenzo; Balloni, Emanuele; Gorgoglione, Lucrezia; Pierdicca, Roberto; Mancini, Adriano; Frontoni, Emanuele; Giovanola, Benedetta; Tiribelli, Simona; Paolanti, Marina; Zingaretti, Primo"),
+        [ Link("Abstract", None, "Artificial Intelligence (AI) has revolutionized various sectors, including Cultural Heritage (CH) and Creative Industries (CI), defining novel opportunities and challenges in preserving tangible and intangible human productions. In such a context, Neural Rendering (NR) paradigms play the pivotal role of 3D reconstructing objects or scenes by optimizing images depicting them. However, there is a lack of work examining the ethical concerns associated with its usage. Those are particularly relevant in scenarios where NR is applied to items protected by intellectual property rights, UNESCO-recognised heritage sites, or items critical for data-driven decisions. For this, we here outline the main ethical findings in this area and place them in a novel framework to guide stakeholders and developers through principles and risks associated with the use of NR in CH and CI. Such a framework examines AI’s ethical principles supporting the definition of novel ethical guidelines.", None),
+            Link("Paper", "papers/paper_43.pdf", None, None),
+            Link("Poster", "posters/poster_43.pdf", None, None),
+        ]
+    ),
+
+    Paper(
         "ART3D: 3D Gaussian Splatting for Text-Guided Artistic Scenes Generation",
         "https://arxiv.org/pdf/2405.10508",
         author_list("Li, Pengzhi; Tang, Chengshuai; Huang, Qinxuan; Li, Zhiheng"),
