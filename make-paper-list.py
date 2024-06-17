@@ -114,6 +114,15 @@ publications = [
         ]
     ),
 
+    Paper(
+        "Single-Image Coherent Reconstruction of Objects and Humans",
+        "papers/paper_22.pdf",
+        author_list("Batra, Sarthak*; Chakrabarti, Partha P; Hadfield, Simon; Mustafa, Armin"),
+        [ Link("Abstract", None, "Existing methods for reconstructing objects and humans from a monocular image suffer from severe mesh collisions and performance limitations for interacting occluding objects. This paper introduces a method to obtain a globally consistent 3D reconstruction of interacting objects and people from a single image. Our contributions include: 1) an optimization framework, featuring a collision loss, tailored to handle human-object and human-human interactions, ensuring spatially coherent scene reconstruction; and 2) a novel technique to robustly estimate 6 degrees of freedom (DOF) poses, specifically for heavily occluded objects, exploiting image inpainting. Notably, our proposed method operates effectively on images from real-world scenarios, without necessitating scene or object-level 3D supervision. Extensive qualitative and quantitative evaluation against existing methods demonstrates a significant reduction in collisions in the final reconstructions of scenes with multiple interacting humans and objects and a more coherent scene reconstruction.", None),
+            Link("Paper", "papers/paper_22.pdf", None, None),
+            Link("Poster", "posters/poster_22.pptx", None, None)
+        ]
+    ),
 ]
 
 
