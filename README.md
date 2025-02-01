@@ -1,1 +1,1 @@
-# ai3dg.github.io
+UCB-UCLA-Workshop2025.github.io
